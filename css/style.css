@@ -1,0 +1,65 @@
+/*шапка*/
+
+.wrapper{
+	max-width: 1170px;
+	/*Позиционирование по центру*/
+	margin: 0 auto;
+}
+
+.header {
+	
+	position: absolute;
+	width: 100%;
+	}
+
+.header_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.header_logo{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.header_nav{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px ;
+}
+
+.header_punkt{
+	margin-right: 82px;
+	
+}
+
+.header_punkt:last-child{
+	margin-right: 0;
+}
+
+.header_link{
+	font-family:'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/*смена цвета кнопок меню в шапке при наведение*/
+.header_link:hover, .header_link:focus, .header_link:active{
+	color: #FF5C00;
+	transition: color .5s linear;
+}
+
+/*шапка*/
+
+/*начальная секция*/
+.promo{
+	height: 157vh;
+	background: url(../image/background\ promosection.jpg) no-repeat center top;
+	background-size: 100%;
+
+}
