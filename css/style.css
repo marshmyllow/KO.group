@@ -7,7 +7,6 @@
 }
 
 .header {
-	
 	position: absolute;
 	width: 100%;
 	}
@@ -69,3 +68,17 @@
 	background-size: 100%;
 
 }
+
+@media screen and (max-width: 900px) {
+	.header_item a {
+	  font-size: 10px;
+	}
+  }
+
+
+@media screen and (max-width: 1200px) {
+	.header_wrapper {
+		margin: 0px 50px;
+	}
+}
+
