@@ -30,12 +30,12 @@
 	padding-bottom: 20px ;
 }
 
-.header_punkt{
+.header_item{
 	margin-right: 82px;
 	
 }
 
-.header_punkt:last-child{
+.header_item:last-child{
 	margin-right: 0;
 }
 
@@ -53,7 +53,6 @@
 .header_link:hover, .header_link:focus, .header_link:active{
 	color: #FF5C00;
 	transition: color 0.2s ease-out;
-	
 }
 
 .header_link:active{
