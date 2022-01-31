@@ -48,11 +48,18 @@
 	color: #FFFFFF;
 	text-decoration: none;
 }
+
 /*смена цвета кнопок меню в шапке при наведение*/
 .header_link:hover, .header_link:focus, .header_link:active{
 	color: #FF5C00;
-	transition: color .5s linear;
+	transition: color 0.2s ease-out;
+	
 }
+
+.header_link:active{
+	color: #a53c00;
+}
+
 
 /*шапка*/
 
