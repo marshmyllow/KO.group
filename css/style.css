@@ -66,19 +66,35 @@
 	height: 157vh;
 	background: url(../image/background_promo.jpg) no-repeat center top;
 	background-size: 100%;
-
+	padding-top: 253px;
 }
 
-@media screen and (max-width: 900px) {
-	.header_item a {
-	  font-size: 10px;
-	}
-  }
-
-
-@media screen and (max-width: 1200px) {
-	.header_wrapper {
-		margin: 0px 50px;
-	}
+.promo_title{
+	max-width: 668px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 59px;
+	color: #FFFFFF;
+	margin-bottom: 16px;
 }
 
+.polygon_promo{
+	margin-bottom: 11px;
+	}
+
+.promo_title2{
+	max-width: 529px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #FFFFFF;
+	padding-left: 25px;
+}
+
+.color_promo_title2{
+	color: #FF5C00;
+}
