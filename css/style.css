@@ -113,17 +113,17 @@
 	border-radius: 31px;
 	text-decoration: none;
 	border: 0px;
-	box-shadow: 0 0 5px #FF5C00, 0 0 5px #FF5C00, 0 0 5px #FF5C00, 0 0 5px #FF5C00;
 	margin-bottom: 12px;
 }
 
 .offer_promo:hover, .offer_promo:focus{
-	box-shadow: 0 0 23px #FF5C00 , 0 0 23px #FF5C00, 0 0 23px #FF5C00, 0 0 23px #FF5C00;
+	box-shadow: 0px 0px 23px #FF5C00;
+	border-radius: 30.5px;;
 }
 
 
 .offer_promo:active{
-	box-shadow: 0 0 10px #FF5C00, 0 0 10px #FF5C00, 0 0 10px #FF5C00, 0 0 10px #FF5C00;
+	box-shadow: 0px 0px 23px #FF5C00;			
 	color: #ebe2e2dc;
 }
 
