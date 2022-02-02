@@ -112,8 +112,7 @@
 	background: #FF5C00;
 	border-radius: 31px;
 	text-decoration: none;
-	border: 0px;
-	margin-bottom: 12px;
+	margin-bottom: 33px;
 }
 
 .offer_promo:hover, .offer_promo:focus{
@@ -123,7 +122,7 @@
 
 
 .offer_promo:active{
-	box-shadow: 0px 0px 23px #FF5C00;			
+	box-shadow: 0px 0px 10px #FF5C00;			
 	color: #ebe2e2dc;
 }
 
