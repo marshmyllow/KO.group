@@ -58,19 +58,29 @@
 	color: #a53c00;
 }
 
-
-/*шапка*/
-
-/*начальная секция*/
+/*начальная секция часть1*/
 .promo{
 	height: 157vh;
 	background: url(../image/background_promo.jpg) no-repeat center top;
 	background-size: 100%;
-	padding-top: 253px;
+}
+
+.promo_flex1{
+	display:flex;
+}
+
+.promo_part_left{
+	margin-right: auto;
+	margin-top: 253px;
+}
+
+.promo_img{
+	margin-top: 112px;
+	margin-bottom: auto;
 }
 
 .promo_title{
-	max-width: 668px;
+	max-width: 655px;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 800;
@@ -93,11 +103,15 @@
 	line-height: 44px;
 	color: #FFFFFF;
 	margin-left: 25px;
-	margin-bottom: 41px;
+	margin-bottom: 51px;
 }
 
 .color_promo_title2{
 	color: #FF5C00;
+}
+
+.offer_promo_box{
+	margin-bottom: 33px;
 }
 
 .offer_promo{
@@ -112,12 +126,12 @@
 	background: #FF5C00;
 	border-radius: 31px;
 	text-decoration: none;
-	margin-bottom: 33px;
+	
 }
 
 .offer_promo:hover, .offer_promo:focus{
 	box-shadow: 0px 0px 23px #FF5C00;
-	border-radius: 30.5px;;
+	
 }
 
 
@@ -136,3 +150,4 @@
 	margin-left: 174px;
 }
 
+/*начальная секция часть2*/
