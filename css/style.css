@@ -75,8 +75,11 @@
 	margin-top: 303px;
 }
 
-.promo_img{
+.promo_img {
+	max-width: 100%;
+	height: 100%;
 	margin-top: 224px;
+	
 }
 
 .promo_title{
@@ -160,6 +163,7 @@
 
 .promo_img2{
 	/*margin-top: 439px;*/
+	max-width: 100%;
 	grid-row: span 2;
 }
 
