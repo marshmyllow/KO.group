@@ -79,6 +79,10 @@
 	margin-top: 224px;
 }
 
+.promo_img {
+	max-width: 100%;
+}
+
 .promo_title{
 	max-width: 655px;
 	font-family: 'Montserrat';
