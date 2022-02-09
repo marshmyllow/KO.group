@@ -61,22 +61,23 @@
 /*начальная секция часть1*/
 .promo{
 	min-height: 100vh;
-	background: url(../image/background_promo.jpg) no-repeat center top;
-	background-size: 100%;
+	background: url(../image/background_promo.jpg) no-repeat center top ;
+	/* background-size: 100%; */
 }
 
 .promo_flex1{
+	margin-bottom: 609px;
 	display:flex;
 	justify-content: space-between;
 }
 
 .promo_part_left{
 	margin-right: auto;
-	margin-top: 303px;
+	/* margin-top: 223px;  */
 }
 
 .promo_part_right{
-	margin-top: 224px;
+	margin-top: 20px;
 }
 
 .promo_img {
@@ -154,7 +155,7 @@
 	line-height: 20px;
 	color:#FFFFFF;
 	margin-left: 174px;
-	margin-bottom: 609px;
+	/* margin-bottom: 609px; */
 }
 
 /*начальная секция часть2*/
