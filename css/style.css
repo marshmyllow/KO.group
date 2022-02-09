@@ -62,22 +62,22 @@
 .promo{
 	min-height: 100vh;
 	background: url(../image/background_promo.jpg) no-repeat center top ;
-	/* background-size: 100%; */
+	background-size: 100%;
 }
 
 .promo_flex1{
-	margin-bottom: 609px;
+	margin-bottom: 462px;
 	display:flex;
 	justify-content: space-between;
 }
 
 .promo_part_left{
 	margin-right: auto;
-	/* margin-top: 223px;  */
+	margin-top: 203px; 
 }
 
 .promo_part_right{
-	margin-top: 20px;
+	margin-top: 162px;
 }
 
 .promo_img {
@@ -166,13 +166,12 @@
 }
 
 .promo_img2{
-	/*margin-top: 439px;*/
+	margin-top: 70px;
 	max-width: 100%;
 	grid-row: span 2;
 }
 
 .promo_title3{
-	/*margin-top: 388px;*/
 	max-width: 584px;
 	font-family: 'Montserrat';
 	font-style: normal;
