@@ -62,9 +62,9 @@
 /*начальная секция часть1*/
 .promo{
 	/* margin-top: -102px; */
-	min-height: 100vh;
-	background: url(../image/background_promo.jpg) no-repeat center top ;
-	background-size: 100%;
+	max-height: 1230px;
+	background: url(../image/background_promo.jpg) 50%/cover;
+	/* background-size: 100%; */
 }
 
 .promo_flex1{
