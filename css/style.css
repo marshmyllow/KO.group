@@ -62,7 +62,7 @@
 /*начальная секция часть1*/
 .promo{
 	/* margin-top: -102px; */
-	min-height: 100vh;
+	min-height: 150vh;
 	background: url(../image/promo_img1.png) no-repeat center top ;
 	background-size: 100%;
 }
@@ -164,7 +164,7 @@
 
 .promo2{
 	min-height: 100vh;
-	top: -162px;
+	top: -212px;
 	position: relative;
 	z-index: 2;
 	background: url(../image/promo_img2.png) no-repeat center top ;
