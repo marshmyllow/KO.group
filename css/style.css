@@ -71,6 +71,8 @@
 	min-height: 941px;
 	background: url(../image/promo_img1.png) no-repeat;
 	background-size: cover;
+	background-position: center 20%;
+	/* background-position: center center; */
 	
 }
 
