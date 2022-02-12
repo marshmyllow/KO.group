@@ -8,7 +8,7 @@
 }
 
 .header {
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
 	}
 
@@ -59,27 +59,36 @@
 	color: #a53c00;
 }
 
+
+/* !!!!!MAIN ELEMENTS!!!!! */
+
+/* div {
+	border: 1px red solid;
+} */
+
 /*начальная секция часть1*/
-.promo{
-	/* margin-top: -102px; */
-	height: 1530px;
-	background: url(../image/background_promo.jpg) 50%/cover;
-	/* background-size: 100%; */
+.background_image{
+	min-height: 941px;
+	background: url(../image/promo_img1.png) no-repeat;
+	background-size: cover;
+	
 }
 
-.promo_flex1{
-	margin-bottom: 462px;
-	display:flex;
+.main_promo_container{
+	border: 1px solid blue;
+	height: 650px;
+	margin-top: 80px;
+	display: flex;
 	justify-content: space-between;
 }
 
-.promo_part_left{
-	/* margin-right: auto; */
-	margin-top: 203px; 
+.left_promo_container{
+	margin-top: 40px;
+	overflow: hidden;
 }
 
 .promo_part_right{
-	margin-top: 162px;
+
 }
 
 .promo_img {
@@ -173,8 +182,17 @@
 
 .promo_grid{
 	/* transform: translateY(65%); */
+	border: 1px green solid;
 	display: grid;
-	grid-template-columns: 568px 1fr;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+.background_image2 {
+	background: url(../image/promo_img2.png) top  no-repeat;
+	/* width: 100%; */
+	background-size:100%;
+
 }
 
 .promo_img2{
@@ -184,12 +202,12 @@
 }
 
 .promo_title3{
-	max-width: 584px;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: bold;
-	font-size: 46px;
-	line-height: 63px;
+	font-size: calc(20px + 16 * ((100vw - 320px) / (1280 - 320)));
+	line-height: 1.4em;
+	/* margin-top: -1em; */
 	color: #FFFFFF;
 	
 }
