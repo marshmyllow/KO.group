@@ -204,7 +204,7 @@
 	color: #111010;
 }
 
-/* @media (max-width: 1680px) {
+@media (max-width: 1680px) {
 	.promo_flex1{
 		margin-bottom: 200px;
 	}
@@ -214,13 +214,13 @@
 	.promo_part_right{
 		margin-top: 250px;
 	}
-} */
+}
 
-/* @media (max-width: 1600px) {
+@media (max-width: 1600px) {
 	.promo_part_left{
 		margin-top: 280px;
 	}
 	.promo_part_right{
 		margin-top: 180px;
 	}
-} */
+}
