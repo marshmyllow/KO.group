@@ -426,7 +426,7 @@ body {
 	text-align: center;
 	color: #323232;
 	margin: 0 auto;
-	margin-bottom: 205px;
+	margin-bottom: 255px;
 }
 
 .color_cards_title{
@@ -441,7 +441,15 @@ body {
 	/* grid-template-columns: 360px 360px 360px; */
 	gap: 45px;
 	margin: 0 auto;
+}
 
+.cards_link{
+	display: block;
+	color: #FFFFFF;
+	padding: 11px 18px 6px;
+	border-radius: 20px;
+	height: 148px;
+	box-shadow: inset 0px 0px 0px 1.5px rgba(184, 184, 184, 0.25);
 }
 
 .cards_link > h4{
@@ -459,17 +467,6 @@ body {
 	line-height: 20px;
 	position: relative;
 	top: 35px;
-}
-
-.cards_link{
-	display: block;
-	color: #FFFFFF;
-	padding: 11px 18px 6px;
-	/* max-width: 360px; */
-	border-radius: 20px;
-	height: 148px;
-	/* border: 1.5px solid rgba(206, 204, 204, 0.4); */
-	box-shadow: inset 0px 0px 0px 1.5px rgba(184, 184, 184, 0.25);
 }
 
 .card_1{
