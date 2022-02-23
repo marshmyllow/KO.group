@@ -1,11 +1,66 @@
-/* Стандартные стили */
+/*		Правило комментирования:
+
+Желательно на латинице. Всегда + один (1) отступ между комментариями как сверху, так и снизу (за исключением точечного комментирования конкретного стиля). Для точечных комментариев конкретного стиля (т.е. не обозначение начала участка с стилями, а именно точечное редактирование, которое необходимо обозначить, предлагаю использовать комментарий без enter, с прилипанием к стилю. Пример:
+
+//смена цвета кнопок меню в шапке при наведении//
+.header_link:focus{
+	color: #FF5C00;
+}
+
+
+
+Супер-крупные смысловые секции пишем капсом, остальные по-обычному. Супер-крупные смысловые секции друг меж другом разделяем четыремя (4) enter, но если необходимо внутри секции отделить стиль одного контейнера от другого и закоментировать это, то три (3) enter.
+
+Так же давайте использовать закрывающий комментарий для супер-крупных секций. 
+Пример комментирования смысловых секций:
+
+//HEADER//
+
+.style_1
+
+.style_2
+
+//END HEADER// (4 enter)
+
+
+
+
+//MAIN//
+
+//main_container_1// 
+
+.style_1 (далее 2 enter)
+
+
+
+//main_container_2// 
+
+.style_1
+
+//END MAIN//
+
+
+
+Так же обращаю внимание на то, что визуально будет удобно и приятнее, если будут соблюдены все отступы и пробелы, а лишние enter удалены.
+*/
+
+
+
+
+/*		Правила стилизации:
+
+Постарайтесь использовать переопределение и комбинирование. Задавайте необходимые классы всем элементам в блоке один раз, привязываясь к селектору этого блока, а после корректируйте конкретный item. Комментирование приветствуется.
+
+Медиа-запросы либо выносим в отдельный css, либо обозначаем комментарием и указываем в конце стилей для секции или блока
+*/
+
+
+
+
+/* STANDART STYLE */
 
 a {
 	text-decoration: none;
-}
-
-div {
-	/* border: 1px red solid; */
 }
 
 body {
@@ -22,13 +77,16 @@ body {
 	color: #FFFFFF;
 }
 
-/* Конец стандартные стили */
+body {
+	margin-bottom: 200px;
+}
+
+/* END STANDART STYLE */
 
 
 
 
-
-/*шапка*/
+/*HEADER*/
 
 .wrapper{
 	padding: 0 20px;
@@ -186,9 +244,15 @@ body {
 	}
 }
 
-/* !!!!!MAIN ELEMENTS!!!!! */
+/*END HEADER*/
 
-/*начальная секция часть1*/
+
+
+
+/*PROMO_SECTION*/
+
+/*main_promo_container*/
+
 .background_image{
 	min-height: 950px;
 	background: url(../image/promo_img1.png) no-repeat;
@@ -209,10 +273,6 @@ body {
 	/* width: 673px; */
 	margin-top: 90px;
 	overflow: hidden;
-}
-
-.right_promo_container{
-	/* width: 543px; */
 }
 
 .promo_img {
@@ -280,8 +340,6 @@ body {
 	box-shadow: 0px 0px 23px #FF5C00;
 }
 
-
-
 .offer_promo_title{
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -291,15 +349,14 @@ body {
 	color:#FFFFFF;
 }
 
-/*начальная секция часть2*/
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/*slave_promo_container*/
 
 .background_image2 {
 	background: url(../image/promo_img2.png) top  no-repeat;
-	/* width: 100%; */
 	background-size: 100%;
 }
-
 
 .slave_promo_container{
 	/* border: 1px green solid; */
@@ -307,35 +364,21 @@ body {
 	grid-template-columns: 1fr 1fr;
 }
 
-.left_slave_container {
-	/* width: 100%; */
-}
-
-.right_slave_container {
-	
-}
-
-
 .slave_promo_img{
 	margin-top: 70px;
 	max-width: 100%;
 }
 
-
 .slave_heading{
-	font-style: normal;
 	font-weight: bold;
 	font-size: calc(28px + 16 * ((100vw - 320px) / (1280 - 320)));
 	line-height: 1.2em;
-	/* margin-top: -1em; */
 	color: #FFFFFF;
 	margin-top: -40px;
 	margin-left: -100px;
 }
 
-
 .slave_title{
-	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
@@ -343,9 +386,6 @@ body {
 	margin-top: calc(40px + 30* ((250vw - 320px) / (1280 - 320)));
 	margin-bottom: 191px;
 }
-
-
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 @media (max-width: 850px) {
 	.main_promo_container {
@@ -394,10 +434,7 @@ body {
 }
 
 
-
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 /* HOVER/ACTIVE/FOCUS */
-
 .offer_promo_button:hover, .offer_promo_button:focus{
 	box-shadow: 0px 0px 34px #FF5C00;
 }
@@ -407,7 +444,12 @@ body {
 	color: #ebe2e2dc;
 }
 
-/* начало секции с карточками */
+/*END PROMO_SECTION*/
+
+
+
+
+/* CARDS_SECTION */
 
 .background_cards_section{
 	min-height: 1090px;
@@ -504,12 +546,14 @@ body {
 	background-position: top center; */
 }
 
-/* конец секции с карточками */
+/* END CARDS_SECTION */
 
-/* Начало секции с услугами */
+
+
+
+/* SERVICE_SECTION */
 
 .service_title{
-	font-style: normal;
 	font-weight: bold;
 	font-size: 100px;
 	line-height: 122px;
@@ -518,6 +562,7 @@ body {
 	margin: 0 auto;
 	margin-bottom: 111px;
 }
+
 .services{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -527,31 +572,29 @@ body {
 
 .service_item{
 	display: block;
+	box-sizing: border-box;
 	padding-top: 35px;
 	padding-left: 50px;
-	height: 320px;
+	height: 340px;
+	width: 560px;
 	border-radius: 20px;
-	
 }
 
 .service_item > h4{
-	font-style: normal;
 	font-weight: 800;
 	font-size: 38px;
 	line-height: 46px;
 	margin-bottom: 19px;
 }
 
-.service_item > p{
-	font-style: normal;
+.service_item > ul {
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 200%;
 }
 
-.service_1> a{
+.service_item > a {
 	display: block;
-	/* margin: 0 auto;  */
 	box-sizing: border-box;
 	width: 200px;
 	padding-top: 6px;
@@ -560,37 +603,91 @@ body {
 	font-size: 25px;
 	line-height: 30px;
 	text-align: center;
-	background: #3CAAA9 90%;
 	border-radius: 10px;
 	text-transform: none;
 	color: #FFFFFF;
-	box-shadow: 0px 10px 18px #BADBDE;
-	/* position: relative;
-	left: 258px; */
+	left: 258px;
 	margin-left: 258px;
 }
 
-.service_1{
-	background: url(../image/background_service_1.png) no-repeat;
+
+
+/* service_item_1 */
+
+.service_item_1 {
+	color: #3CAAA9;
+}
+
+.service_item_1 > a{
+	background: #3CAAA9 90%;
+	box-shadow: 0px 10px 18px #BADBDE;
+}
+
+.service_item_1{
+	background: url(../image/background_service_1.jpg) no-repeat;
 	/* background-size: cover; */
 	/* background-position: top center; */
-	box-shadow: inset 0px 0px 0px 3px rgba(36, 122, 146, 0.4); 
+	box-shadow: inset 0px 0px 0px 3px rgba(72, 163, 189, 0.3); 
 }
-.service_2{
-	background: url(../image/background_service_2.png) no-repeat;
+
+
+
+/* service_item_2 */
+
+.service_item_2 {
+	color: rgba(189, 84, 158, 0.9);
+}
+
+.service_item_2 > a{
+	background: rgba(189, 84, 158, 0.9);
+	box-shadow: 0px 10px 18px #d4bade;
+}
+
+.service_item_2{
+	background: url(../image/background_service_2.jpg) no-repeat;
 	/* background-size: cover; */
 	/* background-position: top center; */
-	box-shadow: inset 0px 0px 0px 3px rgba(132, 18, 182, 0.1); 
+	box-shadow: inset 0px 0px 0px 3px rgba(185, 96, 185, 0.3); 
 }
-.service_3{
-	background: url(../image/background_service_1.png) no-repeat;
+
+
+
+/* service_item_3 */
+
+.service_item_3 {
+	color: rgba(54, 21, 150, 0.8);
+}
+
+.service_item_3 > a{
+	background: rgba(136, 59, 193, 0.9);
+	box-shadow: 0px 10px 18px #caabd6;
+}
+
+.service_item_3{
+	background: url(../image/background_service_3.jpg) no-repeat;
 	/* background-size: cover; */
 	/* background-position: top center; */
-	box-shadow: inset 0px 0px 0px 3px rgba(36, 122, 146, 0.4); 
+	box-shadow: inset 0px 0px 0px 3px rgba(112, 87, 187, 0.3); 
 }
-.service_4{
-	background: url(../image/background_service_1.png) no-repeat;
+
+
+
+/* service_item_4 */
+
+.service_item_4 {
+	color: rgba(62, 125, 224, 0.85);
+}
+
+.service_item_4 > a{
+	background: rgba(62, 125, 224, 0.85);
+	box-shadow: 0px 10px 18px #bac4de;
+}
+
+.service_item_4{
+	background: url(../image/background_service_4.jpg) no-repeat;
 	/* background-size: cover; */
 	/* background-position: top center; */
-	box-shadow: inset 0px 0px 0px 3px rgba(36, 122, 146, 0.4); 
+	box-shadow: inset 0px 0px 0px 3px rgba(51, 93, 156, 0.3);
 }
+
+/* END SERVICE_SECTION */
