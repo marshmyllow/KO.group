@@ -457,6 +457,10 @@ body {
 
 /* CARDS_SECTION */
 
+.middle{
+	margin: 0 auto;
+}
+
 .background_cards_section{
 	min-height: 1090px;
 	background: url(../image/background_card.png) no-repeat;
@@ -497,6 +501,7 @@ body {
 	border-radius: 20px;
 	height: 165px;
 	width: 360px;
+	margin: 0 auto;
 	box-shadow: inset 0px 0px 0px 1.5px rgba(184, 184, 184, 0.25);
 }
 
@@ -560,6 +565,7 @@ body {
 @media (max-width: 1210px) {
 	.cards{
 		grid-template-columns: 1fr 1fr;
+
 	} 
 }
 
@@ -595,6 +601,7 @@ body {
 	height: 340px;
 	width: 560px;
 	border-radius: 20px;
+	margin: 0 auto;
 }
 
 .service_item > h4{
