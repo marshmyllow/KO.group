@@ -567,6 +567,11 @@ body {
 		grid-template-columns: 1fr 1fr;
 
 	} 
+
+	.middle{
+		max-width: 750px;
+	}
+	
 }
 
 /* END CARDS_SECTION */
