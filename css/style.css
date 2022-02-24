@@ -176,6 +176,8 @@ body {
 	transform: translateY(-50%);
 }
 
+/* @MEDIA HEADER */
+
 @media screen and (max-width:767px){
 	.header_burger{
 		display: block;
@@ -387,6 +389,10 @@ body {
 	margin-bottom: 191px;
 }
 
+
+
+/* @MEDIA PROMO SECTION */
+
 @media (max-width: 850px) {
 	.main_promo_container {
 		grid-template-columns: 1fr;
@@ -479,17 +485,18 @@ body {
 .cards{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	/* grid-template-columns: 360px 360px 360px; */
 	gap: 45px;
 	margin: 0 auto;
 }
 
 .cards_item{
 	display: block;
+	box-sizing: border-box;
 	color: #FFFFFF;
 	padding: 11px 18px 6px;
 	border-radius: 20px;
-	height: 148px;
+	height: 165px;
+	width: 360px;
 	box-shadow: inset 0px 0px 0px 1.5px rgba(184, 184, 184, 0.25);
 }
 
@@ -544,6 +551,16 @@ body {
 	background: url(../image/background_card_6.png) no-repeat;
 	/* background-size: cover;
 	background-position: top center; */
+}
+
+/* @MEDIA CARDS SECTIONS */
+
+
+
+@media (max-width: 1210px) {
+	.cards{
+		grid-template-columns: 1fr 1fr;
+	} 
 }
 
 /* END CARDS_SECTION */
@@ -688,6 +705,16 @@ body {
 	/* background-size: cover; */
 	/* background-position: top center; */
 	box-shadow: inset 0px 0px 0px 3px rgba(51, 93, 156, 0.3);
+}
+
+/* @MEDIA CARDS SECTIONS */
+
+
+
+@media (max-width: 1210px) {
+	.services{
+		grid-template-columns: 1fr;
+	} 
 }
 
 /* END SERVICE_SECTION */
