@@ -596,6 +596,7 @@ body {
 	grid-template-columns: 1fr 1fr;
 	gap: 50px;
 	margin: 0 auto;
+	margin-bottom: 186px;
 }
 
 .service_item{
@@ -730,3 +731,33 @@ body {
 }
 
 /* END SERVICE_SECTION */
+
+
+
+
+/* START CASE_SECTION */
+
+.wrapper_case{
+	padding: 0 20px;
+	max-width: 1357px;
+	/*Позиционирование по центру*/
+	margin: 0 auto;
+}
+
+.case {
+	min-height: 1132px;
+	background: url(../image/case_background.jpg) no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.case_title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 122px;
+	text-align: center;
+	color: #F2FAFA;
+	position: relative;
+	top: 83px;
+}
