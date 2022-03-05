@@ -760,4 +760,15 @@ body {
 	color: #F2FAFA;
 	position: relative;
 	top: 83px;
+	margin-bottom: 166px;
+}
+
+.flex-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.slider-wrapper {
+	max-width: ;
 }
