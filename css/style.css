@@ -88,6 +88,12 @@ body {
 
 /*HEADER*/
 
+/* Общий класс для центрирования блока */
+.center {
+	width: 90%;
+	margin: 0 auto;
+}
+
 .wrapper{
 	padding: 0 20px;
 	max-width: 1170px;
@@ -456,28 +462,32 @@ body {
 
 
 /* CARDS_SECTION */
-
-.middle{
-	margin: 0 auto;
+.cards_section {
+	margin-top: 50px;
+	margin-bottom: 150px;
 }
 
+
+
 .background_cards_section{
-	min-height: 1090px;
-	background: url(../image/background_card.png) no-repeat;
+	height: 1030px;
+	display: flex;
+	align-content: flex-start;
+    justify-content: space-evenly;
+	align-items: center;
+	background: url(../image/background_card.svg) no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: center center;
 }
 
 .cards_title{
-	max-width: 1104px;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 59px;
 	text-align: center;
 	color: #323232;
-	margin: 0 auto;
-	margin-bottom: 255px;
+	margin-bottom: -50px;
 }
 
 .color_cards_title{
@@ -570,6 +580,10 @@ body {
 
 	.middle{
 		max-width: 750px;
+	}
+
+	.background_cards_section {
+		height: 1500px;
 	}
 	
 }
@@ -841,7 +855,7 @@ body {
 	margin-right: 20px;
 }
 
-span.daily_parameter,.rating_parameter {
+.daily_parameter,.rating_parameter {
 	padding: 5px;
 	margin-left: 10px;
 } 
@@ -850,7 +864,10 @@ span.daily_parameter,.rating_parameter {
 	display: block;
 }
 
-
+.button_of_slide {
+	color: white;
+	background: rgb(238, 90, 32);
+}
 
 
 
