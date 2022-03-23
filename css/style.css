@@ -863,7 +863,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	position: relative;
-	bottom: 300px;
+	bottom: 330px;
 	justify-content: space-between;
 }
 
@@ -883,7 +883,19 @@ body {
 	opacity: 0.6;
 } */
 
-/* #btn-next {
-	left: auto;
-	right: 0;
-} */
+#btn-prev:hover, #btn-next:hover {
+	box-shadow: 0px 0px 34px #707070;
+	border-radius: 100px;
+}
+
+#btn-prev:active, #btn-next:active{
+	box-shadow: 0px 0px 1px #707070;
+}
+
+#btn-prev {
+	margin-left: 40px;
+}
+
+#btn-next {
+	margin-right: 40px;
+}
