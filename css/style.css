@@ -889,7 +889,7 @@ body {
 }
 
 #btn-prev:active, #btn-next:active{
-	box-shadow: 0px 0px 1px #707070;
+	box-shadow: 0px 0px 0px #707070;
 }
 
 #btn-prev {
