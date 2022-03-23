@@ -966,7 +966,8 @@ body {
 
 .form_section {
 	min-height: 1100px;
-	background: url(../image/background_form.png) no-repeat;
+	/*background: url(../image/background_form.png) no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: top center; */
+	background: radial-gradient(45.7% 57.22% at 46.59% 40.12%, #1C054F 0%, #000000 100%);
 }
