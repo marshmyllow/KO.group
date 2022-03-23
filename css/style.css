@@ -790,9 +790,14 @@ body {
 }
 
 .slide {
-	width: 100%;
-	height: 100%;
 	display: none;
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 0px 2px 41px rgba(112, 112, 112, 0.367);
+	border-radius: 30px;
+	/* padding: 30px; */
+	/* width: 1360px; */
+	height: 580px;
 
 }
 
@@ -802,7 +807,7 @@ body {
 	box-sizing: border-box;
 	height: 577px;
 	max-width: 1290px;
-	margin: 0 auto;
+	margin: 0 20px;
 	color: #fff;
 }
 
@@ -812,31 +817,55 @@ body {
 	background-color: #5f6db9c7;
 	backdrop-filter: blur(5px);
 	border-radius: 5px;
+	background: linear-gradient(99.97deg, rgba(65, 21, 137, 0.5) 16.54%, rgba(99, 3, 107, 0.5) 100.52%);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+	backdrop-filter: blur(7px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 20px;
 }
+
+
 
 .name_of_slide {
 	display: flex; 
 	justify-content: space-between;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+	font-family: 'Montserrat';
+	font-weight: 800;
+	font-size: 40px;
+}
+
+.name_of_slide > span {
+	padding: 15px;
 }
 
 .parameters_of_slide {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	font-family: 'Montserrat';
+	font-weight: 800;
+	font-size: 14px;
+	
+	color: #FFFFFF;	
 }
 
 .parameters_of_slide span {
-	padding: 5px;
-	padding-right: 0px;	
-}
-
-.parameters_of_slide>span {
-	margin-right: 20px;
+	padding: 5px 10px;
+	border-radius: 8px;
 }
 
 .daily_parameter,.rating_parameter {
-	padding: 5px;
+	text-align: center;
+	margin-right: -10px;
 	margin-left: 10px;
 } 
+
+.parameters_of_slide > span:nth-child(1) {
+	margin-right: 30px;
+}
+
+
+
 
 .slide.active {
 	display: block;
@@ -849,12 +878,11 @@ body {
 
 .first {
 	background: url(../image/slide_1.jpg) no-repeat;
-	width: 100%;
-	height: 100%;
 }
 
 .second {
 	background: url(../image/slide_2.jpg) no-repeat;
+	
 	width: 100%;
 	height: 100%;
 }
@@ -885,7 +913,7 @@ body {
 
 #btn-prev:hover, #btn-next:hover {
 	box-shadow: 0px 0px 34px #707070;
-	border-radius: 100px;
+	border-radius: 100%;
 }
 
 #btn-prev:active, #btn-next:active{
@@ -893,9 +921,11 @@ body {
 }
 
 #btn-prev {
+	border-radius: 100%;
 	margin-left: 40px;
 }
 
 #btn-next {
+	border-radius: 100%;
 	margin-right: 40px;
 }
