@@ -1,6 +1,6 @@
-const prev = document.getElementById('btn-prev'),
+const 	prev = document.getElementById('btn-prev'),
 		next = document.getElementById('btn-next'),
-		slides = document.querySelectorAll('slide');
+		slides = document.querySelectorAll('.slide');
 
 let index = 0;
 
