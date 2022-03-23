@@ -929,3 +929,44 @@ body {
 	border-radius: 100%;
 	margin-right: 40px;
 }
+
+/* END CASE_SECTION */
+
+
+
+
+/* START WAVE_SECTION */
+
+.wave_section {
+	min-height: 330px;
+	background: url(../image/background_wave.png) no-repeat;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	bottom: 115px;
+}
+
+.wave_title {
+	display: block;
+	position: relative;
+	top: 115px;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 73px;
+	color: #FFFFFF;
+
+}
+
+/* END WAVE_SECTION */
+
+
+
+
+/* START FORM_SECTION */
+
+.form_section {
+	min-height: 1100px;
+	background: url(../image/background_form.png) no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
