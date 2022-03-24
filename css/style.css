@@ -944,7 +944,7 @@ body {
 	 background-position: center center;
 	display: flex;
 	align-items: center; 
-
+	margin-bottom: 180px;
 }
 
 .wave_title {
@@ -960,11 +960,13 @@ body {
 	margin: 0 auto;
 
 }
-/* END WAVE_SECTION */
 
 .wave_title > h2 {
 	/* display: block; */
 }
+
+/* END WAVE_SECTION */
+
 
 
 
@@ -974,3 +976,66 @@ body {
 	height: 1400px;
 	
 	background: radial-gradient(57.92% 41.99% at 45.09% 55.35%, #1C054F 0%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;}
+
+.form_caption > h3 {
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 46px;
+	color: #FFFFFF;
+	margin-bottom: 35px;
+}
+
+.form_caption > p {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	color: #F2F2F2;
+	margin-bottom: 90px;
+}
+
+.form_info{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form_field {
+	max-width: 190px;
+	margin-right: 25px;
+	border: 0;
+	border-radius: 20px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 20px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #323232;
+}
+
+.form_field::placeholder {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #AD928C;
+}
+
+.form_button {
+	padding: 17px 20px;
+	border: 0;
+	border-radius: 20px;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #FF5C00;
+}
+
+.form_button:hover, .form_button:focus{
+	box-shadow: 0px 0px 34px #FF5C00;
+}
+
+.form_button:active{
+	box-shadow: 0px 0px 10px #FF5C00;			
+	color: #ebe2e2dc;
+}
