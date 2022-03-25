@@ -961,9 +961,9 @@ body {
 
 }
 
-.wave_title > h2 {
-	/* display: block; */
-}
+/* .wave_title > h2 {
+	display: block;
+} */
 
 /* END WAVE_SECTION */
 
@@ -996,6 +996,7 @@ body {
 .form_info{
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 350px;
 }
 
 .form_field {
@@ -1038,4 +1039,23 @@ body {
 .form_button:active{
 	box-shadow: 0px 0px 10px #FF5C00;			
 	color: #ebe2e2dc;
+}
+
+/* END FORM_SECTION */
+
+
+
+
+/* START FOOTER_SECTION */
+
+footer {
+	height: 100px;
+	background :#000000;
+}
+
+.line_footer {
+	display: block;
+	background: #fff;
+	height: 0.5px; 
+	width:100%
 }
