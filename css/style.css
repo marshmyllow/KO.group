@@ -77,9 +77,9 @@ body {
 	color: #FFFFFF;
 }
 
-body {
+/* body {
 	margin-bottom: 200px;
-}
+} */
 
 /* END STANDART STYLE */
 
@@ -1054,8 +1054,18 @@ footer {
 }
 
 .line_footer {
-	display: block;
 	background: #fff;
 	height: 0.5px; 
 	width:100%
+}
+
+.social_container {
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+}
+
+.link_social {
+	/* display: block; */
+	margin-right: 20px;
 }
