@@ -1,0 +1,125 @@
+/* STANDART STYLE */
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Montserrat';
+}
+
+/* END STANDART STYLE */
+
+
+
+
+/* HEADER START */
+
+.wrapper{
+	padding: 0 20px;
+	max-width: 1170px;
+	/*Позиционирование по центру*/
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	}
+
+.header_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.header_logo{
+	padding-top: 35px;
+	padding-bottom: 10px;
+}
+
+.header_list{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px ;
+}
+
+.header_item{
+	margin-right: 82px;
+	
+}
+
+.header_item:last-child{
+	margin-right: 0;
+}
+
+.header_link{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #4D4D4D;
+	text-decoration: none;
+}
+
+/*смена цвета кнопок меню в шапке при наведение*/
+.header_link:hover, .header_link:focus{
+	color: #199FFA;
+	transition: color 0.2s ease-out;
+}
+
+.header_link:active{
+	color: #0F86D7;
+}
+
+/* HEADER END */
+
+
+
+
+/* START PROMO SECTION */
+
+.main_promo_container{
+	display: grid;
+	grid-template-columns: 1.3fr 1fr;
+	margin-top: 170px;
+}
+
+/* .left_promo_container {
+	position: relative;
+	right: 78px;
+} */
+
+.right_promo_container {
+	margin-top: 100px;
+	
+}
+
+.promo_text > h1 {
+	font-weight: 800;
+	font-size: 42px;
+	line-height: 50px;
+	color: #0F86D7;
+	margin-bottom: 20px;
+}
+
+.promo_text > h2 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 44px;
+	color: #199FFA;
+	margin-bottom: 45px;
+}
+
+.promo_list_item {
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 104.9%;
+	/* or 24px */
+	color: #4D4D4D;
+	margin-bottom: 15px;
+}
+
+.promo_list_item:last-child{
+	margin-bottom: 0;
+}
