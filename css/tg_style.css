@@ -83,6 +83,7 @@ body {
 	display: grid;
 	grid-template-columns: 1.3fr 1fr;
 	margin-top: 170px;
+	margin-bottom: 300px;
 }
 
 /* .left_promo_container {
@@ -122,4 +123,73 @@ body {
 
 .promo_list_item:last-child{
 	margin-bottom: 0;
+}
+
+/* END PROMO SECTION */
+
+
+
+
+/* START PRICES SECTION */
+
+.prices_title {
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 85px;
+	text-align: center;
+	color: #0F86D7;
+	margin-bottom: 100px;
+}
+
+.prices {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	margin-bottom: 300px;
+}
+
+.flex_prices {
+	display: flex;
+}
+
+.prices_item {
+	padding: 10px;
+}
+
+.prices_item >h4 {
+	font-weight: 800;
+	font-size: 38px;
+	line-height: 46px;
+	color: #0F86D7;
+	margin-bottom: 45px;
+}
+
+.image_subscribers {
+	margin-right: 20px;
+}
+
+.number_subscribers {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	color: #0F86D7;
+	margin-right: 70px;
+	padding: 10px 0 10px 0;
+}
+
+.price_subscribers {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	color: #4D4D4D;
+	padding: 10px 0 10px 0;
+}
+
+.prices_item:hover {
+	border-radius: 15px;
+	box-shadow: inset 0px 0px 0px 3px rgba(72, 163, 189, 0.3); 
+}
+
+.prices_item:active {
+	box-shadow: none;
 }
