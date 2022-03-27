@@ -150,6 +150,7 @@ body {
 
 .flex_prices {
 	display: flex;
+	align-items: center;
 }
 
 .prices_item {
@@ -174,7 +175,7 @@ body {
 	line-height: 44px;
 	color: #0F86D7;
 	margin-right: 70px;
-	padding: 10px 0 10px 0;
+	/* padding: 10px 0 10px 0; */
 }
 
 .price_subscribers {
@@ -182,7 +183,7 @@ body {
 	font-size: 36px;
 	line-height: 44px;
 	color: #4D4D4D;
-	padding: 10px 0 10px 0;
+	/* padding: 10px 0 10px 0; */
 }
 
 .prices_item:hover {
