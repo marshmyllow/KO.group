@@ -132,7 +132,7 @@ body {
 
 /* START PRICES SECTION */
 
-.prices_title {
+.prices_title_section {
 	font-weight: 700;
 	font-size: 70px;
 	line-height: 85px;
@@ -141,16 +141,21 @@ body {
 	margin-bottom: 100px;
 }
 
-.prices {
+.prices_list {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	justify-items: center;
 	margin-bottom: 300px;
 }
 
-.flex_prices {
+.price_item_table {
 	display: flex;
 	align-items: center;
+	line-height: 49px;
+}
+
+.price_item_table li {
+	margin: 17px 0px;
 }
 
 .prices_item {
@@ -165,23 +170,36 @@ body {
 	margin-bottom: 45px;
 }
 
-.image_subscribers {
+.emoji_in_table{
 	margin-right: 20px;
+	font-size: 46px;
 }
 
-.number_subscribers {
+/* .emoji_in_table:last-child{
+	background-color: #ffa8af;
+	border-radius: 10px;
+	font-size: 500px;
+} */
+
+.price_of_smth > li:last-child {
+	background-color: #ffa8af;
+	border-radius: 10px;
+	padding: 2px;
+	color: white;
+}
+
+/* smth = something */
+.number_of_smth {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 44px;
 	color: #0F86D7;
 	margin-right: 70px;
 	/* padding: 10px 0 10px 0; */
 }
 
-.price_subscribers {
+.price_of_smth {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 44px;
 	color: #4D4D4D;
 	/* padding: 10px 0 10px 0; */
 }
@@ -194,3 +212,4 @@ body {
 .prices_item:active {
 	box-shadow: none;
 }
+
