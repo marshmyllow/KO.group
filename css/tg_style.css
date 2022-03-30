@@ -282,7 +282,7 @@ body {
 } */
 
 .form_button:active{
-	border: none;
+	border: 4px solid #fff;
 }
 
 .form_right_container {
