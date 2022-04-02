@@ -213,6 +213,12 @@ body {
 	box-shadow: none;
 }
 
+/* END PRICES SECTION */
+
+
+
+
+/* START FORM SECTION */
 .form_title > h2 {
 	font-weight: 800;
 	font-size: 70px;
@@ -294,4 +300,89 @@ body {
 	font-size: 44px;
 	line-height: 54px;
 	color: #179CDE;
+}
+
+/* END FORM SECTION */
+
+
+
+
+/* START QUESTIONS SECTION */
+
+summary {
+	display: block;
+ }
+ 
+	summary::-webkit-details-marker {
+	display: none;
+}
+
+.questions_title {
+	font-weight: 800;
+	font-size: 70px;
+	line-height: 85px;
+	text-align: center;
+	color: #179CDE;
+	margin-bottom: 80px;
+}
+
+.questions_wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 200px;
+}
+
+/* .questions_container {
+	max-width: 870px;
+
+} */
+
+.questions_item[open] {
+	background: rgba(23, 156, 222, 0.1);
+	border-radius: 20px;
+	transition: 0.3s all;
+}
+
+
+
+.questions_item:hover {
+	background-color: rgba(23, 156, 222, 0.1);
+	border-radius: 20px;
+	transition: 0.3s all;
+}
+
+.questions {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #179CDE;
+	cursor: pointer;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 120px;
+	position: relative;
+}
+
+.questions::after {
+	display: block;
+	content: "+";
+	font-size: 68px;
+	position: absolute;
+	right: -10px;
+	top: 30%;
+	transform: translateX(-20px);
+
+}
+
+.questions_item[open] .questions::after {
+	content: "×";
+}
+
+.answer {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #4D4D4D;
+	padding: 30px;
 }
