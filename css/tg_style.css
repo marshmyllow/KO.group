@@ -152,6 +152,7 @@ body {
 	display: flex;
 	align-items: center;
 	line-height: 49px;
+	justify-content: space-around;
 }
 
 .price_item_table li {
@@ -159,20 +160,24 @@ body {
 }
 
 .prices_item {
-	padding: 10px;
+	box-sizing: border-box;
+	width: 365px;
+	padding: 30px 40px 20px 40px;
+	border: 5px solid rgba(43, 147, 219, 0.2);
+	border-radius: 15px;
 }
 
 .prices_item >h4 {
 	font-weight: 800;
-	font-size: 38px;
-	line-height: 46px;
+	font-size: 30px;
+	line-height: 37px;
 	color: #0F86D7;
 	margin-bottom: 45px;
 }
 
 .emoji_in_table{
 	margin-right: 20px;
-	font-size: 46px;
+	font-size: 36px;
 }
 
 /* .emoji_in_table:last-child{
@@ -191,22 +196,23 @@ body {
 /* smth = something */
 .number_of_smth {
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 28px;
 	color: #0F86D7;
-	margin-right: 70px;
+	margin-right: 35px;
 	/* padding: 10px 0 10px 0; */
 }
 
 .price_of_smth {
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 28px;
 	color: #4D4D4D;
 	/* padding: 10px 0 10px 0; */
 }
 
 .prices_item:hover {
 	border-radius: 15px;
-	box-shadow: inset 0px 0px 0px 3px rgba(72, 163, 189, 0.3); 
+	/* box-shadow: inset 0px 0px 0px 3px rgba(72, 163, 189, 0.3);  */
+	background-color: rgba(43, 147, 219, 0.2);
 }
 
 .prices_item:active {
