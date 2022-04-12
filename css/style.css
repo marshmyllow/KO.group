@@ -1088,12 +1088,6 @@ footer {
 	background :#000000;
 }
 
-.line_footer {
-	background: #fff;
-	height: 0.5px; 
-	width:100%
-}
-
 .social_container {
 	display: flex;
 	/* flex-wrap: wrap; */
