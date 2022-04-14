@@ -498,7 +498,7 @@ body {
 .cards{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	gap: 45px;
+	gap: 20px;
 	margin: 0 auto;
 }
 
