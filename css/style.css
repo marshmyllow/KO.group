@@ -839,10 +839,30 @@ body {
 	font-family: 'Montserrat';
 	font-weight: 800;
 	font-size: 40px;
+	flex-wrap: wrap;
+	
 }
 
+@media screen and (max-width:800px){
+	.name_of_slide  {
+		flex-direction: column 
+	}
+}
+
+@media screen and (max-width:981px){
+	.name_of_slide > span:first-child  {
+		max-width: 60vw;
+	}
+
+}
+
+
+
 .name_of_slide > span {
+
 	padding: 10px;
+	overflow-wrap: break-word;
+	min-width: 30vw;
 }
 
 .parameters_of_slide {
@@ -867,6 +887,7 @@ body {
 
 .parameters_of_slide > span:nth-child(1) {
 	margin-right: 30px;
+	
 }
 
 .slide.active {
