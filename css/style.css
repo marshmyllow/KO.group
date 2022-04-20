@@ -386,6 +386,7 @@ body {
 }
 
 .slave_title{
+	max-width: 500px;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
@@ -402,6 +403,7 @@ body {
 	.main_promo_container {
 		grid-template-columns: 1fr;
 		height: 450px;
+		justify-items: end;
 	}
 
 	.right_promo_container {
@@ -976,6 +978,7 @@ span.button_of_slide {
 	display: flex;
 	align-items: center; 
 	margin-bottom: 250px;
+	padding:  0px 20px;
 }
 
 .wave_title {
@@ -983,7 +986,6 @@ span.button_of_slide {
 	font-size: 60px;
 	line-height: 73px;
 	color: #FFFFFF;
-
 }
 
 .wawe {
@@ -1004,7 +1006,7 @@ span.button_of_slide {
 /* START FORM_SECTION */
 
 .form_section {
-	height: 1400px;
+	height: 1300px;
 	
 	background: radial-gradient(57.92% 41.99% at 45.09% 55.35%, #1C054F 0%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;}
 
@@ -1014,7 +1016,7 @@ span.button_of_slide {
 	justify-content: center;
 	justify-content: space-evenly;
 	gap: 40px;
-	margin-bottom: 300px;
+	margin-bottom: 100px;
 	align-items: center;
 }
 
@@ -1022,7 +1024,22 @@ span.button_of_slide {
 	.form_container div:first-child {
 		
 		order: 2;
-}
+	}
+	
+
+
+	.wave_container {
+		margin-bottom: 50px;
+		
+	}
+
+	.form_right_container > h4 {
+		text-align: center;
+	}
+
+	.form_right_container > p {
+		text-align: center;
+	}
 }
 
 .form_info {
@@ -1094,6 +1111,7 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 	line-height: 46px;
 	color: #FFFFFF;
 	margin-bottom: 60px;
+	
 }
 
 .form_right_container > p {
