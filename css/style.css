@@ -421,11 +421,13 @@ body {
 	.slave_heading {
 		margin-top: -20px;
 		display: none;
+		
 	}
 
 	.slave_heading_mobile {
 		display: inline-block;
 		margin-top: -20px;
+		margin-bottom: 100px;
 		text-align: center;
 		font-size: 28px;
 		/* width: 100%; */
@@ -435,6 +437,11 @@ body {
 
 	.slave_promo_img {
 		display: none;
+	}
+
+	.slave_title{
+		margin: 0 auto;
+		margin-bottom: 70px;
 	}
 
 	/* .left_slave_container {
@@ -587,6 +594,16 @@ body {
 		height: 1500px;
 	}
 	
+	.cards_title {
+		margin-bottom: -200px;
+	}
+}
+
+@media (max-width: 1010px){
+	.cards_title{
+		font-size: 36px;
+		line-height: 46px;
+	}
 }
 
 /* END CARDS_SECTION */
