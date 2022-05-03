@@ -642,22 +642,38 @@ body {
 .services{
 	display: grid;
 
-    grid-template-columns: repeat(auto-fit, 500px);
-    justify-content: center;
+    /* grid-template-columns: repeat(auto-fit, 500px); */
+    /* justify-content: center; */
 	gap: 40px;
+	row-gap: 30px;
 	margin: 0 auto;
 	margin-bottom: 186px;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    /* grid-gap: 20px; */
+    grid-auto-flow: dense;
+
 }
 
 .service_item{
-	display: block;
-	box-sizing: border-box;
+	/* display: block; */
+	/* box-sizing: border-box; */
 	padding-top: 25px;
 	padding-left: 35px;
-	height: 300px;
-	width: 500px;
 	border-radius: 20px;
 	margin: 0 auto;
+	width: 90%;
+    max-width: 550px;
+	min-width: 250px;
+	position: relative;
+	height: 300px;
+}
+
+@media (max-width: 918px) {
+	.service_item {
+		max-width: 90%;
+	}
 }
 
 .service_item > h4{
@@ -676,7 +692,7 @@ body {
 .service_item > a {
 	display: block;
 	box-sizing: border-box;
-	width: 200px;
+	position: absolute;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	font-weight: 800;
@@ -686,9 +702,14 @@ body {
 	border-radius: 10px;
 	text-transform: none;
 	color: #FFFFFF;
-	left: 258px;
-	top: 400px;
-	margin-left: 228px;
+	width: 200px;
+
+/* ОЧЕНЬ КРУТОЙ И СТАБИЛЬНЫЙ СЕТАП ПО ПОЗИЦИОНИРОВАНИЮ КНОПКИ */
+	bottom: 10%;
+    left: 43%;
+    right: 0;
+    margin: 0 auto;
+	margin-right: 20px;
 }
 
 
@@ -707,7 +728,7 @@ body {
 .service_item_1{
 	background: url(../image/background_service_1.jpg) no-repeat;
 	/* background-size: cover; */
-	/* background-position: top center; */
+
 	box-shadow: inset 0px 0px 0px 3px rgba(72, 163, 189, 0.3); 
 }
 
@@ -726,8 +747,9 @@ body {
 
 .service_item_2{
 	background: url(../image/background_service_2.jpg) no-repeat;
+	background-color: #fceced;
 	/* background-size: cover; */
-	/* background-position: top center; */
+	background-position: right center;
 	box-shadow: inset 0px 0px 0px 3px rgba(185, 96, 185, 0.3); 
 }
 
@@ -747,7 +769,7 @@ body {
 .service_item_3{
 	background: url(../image/background_service_3.jpg) no-repeat;
 	/* background-size: cover; */
-	/* background-position: top center; */
+	background-position: right center;
 	box-shadow: inset 0px 0px 0px 3px rgba(112, 87, 187, 0.3); 
 }
 
@@ -767,7 +789,7 @@ body {
 .service_item_4{
 	background: url(../image/background_service_4.jpg) no-repeat;
 	/* background-size: cover; */
-	/* background-position: top center; */
+	background-position: right center;
 	box-shadow: inset 0px 0px 0px 3px rgba(51, 93, 156, 0.3);
 }
 
@@ -785,7 +807,7 @@ body {
 .service_item_5{
 	background: url(../image/background_service_5.jpg) no-repeat;
 	/* background-size: cover; */
-	/* background-position: top center; */
+	background-position: right center;
 	box-shadow: inset 0px 0px 0px 3px rgba(0, 119, 255, 0.4);
 }
 
@@ -803,18 +825,14 @@ body {
 .service_item_6 {
 	background: url(../image/background_service_6.jpg) no-repeat;
 	/* background-size: cover; */
-	/* background-position: top center; */
+	background-position: right center;
 	box-shadow: inset 0px 0px 0px 3px rgba(255, 0, 0, 0.4);
 }
 /* @MEDIA CARDS SECTIONS */
 
 
 
-@media (max-width: 1210px) {
-	.services{
-		grid-template-columns: 1fr;
-	} 
-}
+
 
 /* END SERVICE_SECTION */
 
@@ -864,8 +882,6 @@ body {
 
 .slide {
 	display: none;
-	background-size: cover;
-	background-position: center center;
 	box-shadow: 0px 2px 41px rgba(112, 112, 112, 0.367);
 	border-radius: 30px;
 	/* padding: 30px; */
@@ -876,7 +892,7 @@ body {
 
 .slide_content {
 	display: flex;
-   flex-direction: column-reverse;
+   	flex-direction: column-reverse;
 	box-sizing: border-box;
 	height: 577px;
 	max-width: 1290px;
@@ -922,7 +938,6 @@ body {
 /* Важный медиазапрос для названия слайда, кнопки */
 @media screen and (max-width:982px){
 	.name_of_slide > span {
-		
 		width: min-content;
 	}
 
@@ -937,16 +952,30 @@ body {
 
 	.parameters_of_slide {
 		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	.parameter_container {
-		margin-bottom: 25px;
+		margin-bottom: 18px;
 	}
 
 	.slider-wrapper .buttons_of_slide {
 		bottom: 520px;
 	}
 }
+
+@media screen and (max-width:440px){
+	span.button_of_slide {
+		width: 100%;
+	}
+	.name_of_slide > span {
+		width: 100%;
+		/* text-align: center; */
+		font-size: 30px;
+		/* padding: 10px 30px; */
+	}
+}
+
 
 .parameter_container:first-child {
 	margin-bottom: 20px;
@@ -998,19 +1027,18 @@ span.button_of_slide {
 	filter: drop-shadow(0px 0px 20px #B2510B);
 	text-align: center;
 	margin: 10px 0px;
-
-	
 }
 
 .first {
 	background: url(../image/slide_1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .second {
 	background: url(../image/slide_2.jpg) no-repeat;
-	
-	width: 100%;
-	height: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .buttons_of_slide {
