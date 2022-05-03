@@ -907,33 +907,55 @@ body {
 	font-weight: 800;
 	font-size: 40px;
 	flex-wrap: wrap;
-	
+	align-items: center;
 }
-
-@media screen and (max-width:800px){
-	.name_of_slide  {
-		flex-direction: column 
-	}
-}
-
-@media screen and (max-width:981px){
-	.name_of_slide > span:first-child  {
-		max-width: 60vw;
-	}
-
-}
-
 
 
 .name_of_slide > span {
 
 	padding: 10px;
 	overflow-wrap: break-word;
-	min-width: 30vw;
+	margin-right: 15px;
+	/* width: fit-content; */
+}
+
+/* Важный медиазапрос для названия слайда, кнопки */
+@media screen and (max-width:982px){
+	.name_of_slide > span {
+		
+		width: min-content;
+	}
+
+	.name_of_slide  {
+		flex-direction: column;
+		align-items: normal;
+	}
+
+	span.button_of_slide {
+		width: 180px;
+	}
+
+	.parameters_of_slide {
+		flex-direction: column;
+	}
+
+	.parameter_container {
+		margin-bottom: 25px;
+	}
+
+	.slider-wrapper .buttons_of_slide {
+		bottom: 520px;
+	}
+}
+
+.parameter_container:first-child {
+	margin-bottom: 20px;
+	margin-right: 5px;
 }
 
 .parameters_of_slide {
-	margin-bottom: 20px;
+	display: flex;
+	/* margin-bottom: 20px; */
 	font-family: 'Montserrat';
 	font-weight: 800;
 	font-size: 14px;
@@ -942,7 +964,7 @@ body {
 }
 
 .parameters_of_slide span {
-	padding: 5px 10px;
+	padding: 5px 9px;
 	border-radius: 8px;
 }
 
@@ -974,6 +996,10 @@ span.button_of_slide {
 	line-height: 22px;
 	color:#FFFFFF;
 	filter: drop-shadow(0px 0px 20px #B2510B);
+	text-align: center;
+	margin: 10px 0px;
+
+	
 }
 
 .first {
@@ -993,6 +1019,7 @@ span.button_of_slide {
 	position: relative;
 	bottom: 330px;
 	justify-content: space-between;
+
 }
 
 /* #btn-prev, #btn-next {
