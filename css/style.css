@@ -434,12 +434,10 @@ body {
 		font-size: 28px;
 		/* width: 100%; */
 		color: rgb(224, 224, 255);
-
 	}
 
 	.slave_promo_img {
-		display: none;
-	}
+		display: none;}
 
 	.slave_title{
 		text-align: center;
@@ -453,6 +451,20 @@ body {
 
 	.slave_promo_container {
 		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width:600px) {
+	.slave_heading_mobile{
+		margin-top: -50px;
+		margin-bottom: 100px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.slave_title{
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
 	}
 }
 
