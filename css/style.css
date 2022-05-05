@@ -649,16 +649,16 @@ body {
 
 @media (max-width: 485px){
 	.cards_title{
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 22px;
 		margin-bottom: -50px;
 	}
 }
 
 @media (max-width: 400px){
-	/* .cards_item{
+	.cards_item{
 	width: 330px;
-	}	 */
+	}	
 }
 
 /* END CARDS_SECTION */
