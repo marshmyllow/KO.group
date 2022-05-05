@@ -1,21 +1,23 @@
-<svg width="1600" height="1008" viewBox="0 0 1600 1008" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="29" width="1600" height="944" fill="url(#paint0_radial_979_2)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M800 0H1600V110V111H1599.97C1596.06 171.291 1239.4 220 800 220C360.599 220 3.93713 171.291 0.0323486 111H0V110V0H800Z" fill="url(#paint1_linear_979_2)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M800 1008H0V898V897H0.0323712C3.93711 836.709 360.599 788 800 788C1239.4 788 1596.06 836.709 1599.97 897H1600V898V1008H800Z" fill="url(#paint2_linear_979_2)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M800 1008H0V898V897H0.0323712C3.93711 836.709 360.599 788 800 788C1239.4 788 1596.06 836.709 1599.97 897H1600V898V1008H800Z" fill="url(#paint3_linear_979_2)"/>
+<svg width="780" height="1400" viewBox="0 0 780 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1314_2)">
+<rect width="780" height="1400" fill="white"/>
+<rect width="780" height="1400" fill="url(#paint0_radial_1314_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M389.5 1415H-90V1361.5V1361.01H-89.9806C-87.6402 1331.69 126.134 1308 389.5 1308C652.866 1308 866.64 1331.69 868.981 1361.01H869V1361.5V1415H389.5Z" fill="url(#paint1_linear_1314_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M389.5 0H869V53.5V53.9864H868.981C866.64 83.3096 652.866 107 389.5 107C126.134 107 -87.6402 83.3096 -89.9806 53.9864H-90V53.5V0H389.5Z" fill="url(#paint2_linear_1314_2)"/>
+</g>
 <defs>
-<radialGradient id="paint0_radial_979_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 501) rotate(90) scale(472 918.53)">
+<radialGradient id="paint0_radial_1314_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(390 700) rotate(90) scale(700 447.783)">
 <stop stop-color="#081870"/>
 <stop offset="1" stop-color="#202020"/>
 </radialGradient>
-<linearGradient id="paint1_linear_979_2" x1="800" y1="-623.571" x2="800" y2="222.092" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_1314_2" x1="389.5" y1="1718.28" x2="389.5" y2="1306.98" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
 </linearGradient>
-<linearGradient id="paint2_linear_979_2" x1="800" y1="1631.57" x2="800" y2="785.908" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint2_linear_1314_2" x1="389.5" y1="-303.282" x2="389.5" y2="108.017" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
 </linearGradient>
-<linearGradient id="paint3_linear_979_2" x1="800" y1="1631.57" x2="800" y2="785.908" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-</linearGradient>
+<clipPath id="clip0_1314_2">
+<rect width="780" height="1400" fill="white"/>
+</clipPath>
 </defs>
 </svg>
