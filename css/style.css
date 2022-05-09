@@ -567,8 +567,8 @@ body {
 
 .card_1{
 	background: url(../image/background_card_1.png) no-repeat;
-	/* background-size: 100%;
-	background-position: top center;  */
+	background-size: 100%;
+	background-position: left center; 
 }
 
 .card_2{
@@ -605,11 +605,11 @@ body {
 
 
 
-/*@media (max-width: 1210px) {
-	.cards{
+@media (max-width: 1210px) {
+	/* .cards{
 		grid-template-columns: 1fr 1fr;
 
-	} 
+	}  */
 
 	.middle{
 		max-width: 750px;
@@ -637,10 +637,10 @@ body {
 		line-height: 36px;
 		margin-bottom: -50px;
 	}
-	.cards{
+	/* .cards{
 		grid-template-columns: 1fr ;
 
-	} 
+	}  */
 
 	.background_cards_section{
 		background: url(../image/background_card_mobile.jpg) no-repeat;
@@ -669,7 +669,7 @@ body {
 	.cards_item{
 	width: 330px;
 	}	
-} */
+}
 
 /* END CARDS_SECTION */
 
@@ -777,7 +777,7 @@ body {
 .service_item_1{
 	background: url(../image/background_service_1.jpg) no-repeat;
 	/* background-size: cover; */
-
+	
 	box-shadow: inset 0px 0px 0px 3px rgba(72, 163, 189, 0.3); 
 }
 
@@ -1155,7 +1155,7 @@ span.button_of_slide {
 .wave_title {
 	font-weight: 700;
 	font-size: 60px;
-	line-height: 73px;
+	line-height: 70px;
 	color: #FFFFFF;
 }
 
@@ -1290,6 +1290,40 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 	font-size: 30px;
 	line-height: 37px;
 	color: #F2F2F2;
+}
+
+@media (max-width: 600px){
+	.wave_title {
+		font-size: 44px;
+		line-height: 50px;
+	}
+
+	.wave_container {		
+		background-size: auto;
+	}
+	
+}
+
+@media (max-width: 450px){
+	.wave_title {
+		font-size: 34px;
+		line-height: 40px;
+	}
+
+	.form_right_container > h4 {
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 40px;
+	}
+
+	.form_right_container > p {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.form_info {
+		background-size: 50%;
+	}
 }
 
 /* END FORM_SECTION */
