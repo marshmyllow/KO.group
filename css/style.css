@@ -1180,7 +1180,7 @@ span.button_of_slide {
 	height: 100%;
 	
 	background: radial-gradient(57.92% 41.99% at 45.09% 55.35%, #1C054F 0%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-	background-size: auto 100%;
+	background-size: cover;
 }
 .form_container {
 	display: grid;
@@ -1188,15 +1188,15 @@ span.button_of_slide {
 	justify-content: center;
 	justify-content: space-evenly;
 	gap: 40px;
-	margin-bottom: 10%;
+	margin-bottom: 11%;
 	align-items: center;
 }
 
 @media screen and (max-width:900px){
 
-	.form_section{
+	/* .form_section{
 		height: 1400px
-	}
+	} */
 
 	.form_container div:first-child {
 		
@@ -1304,13 +1304,13 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 		line-height: 50px;
 	}
 
-	.wave_container {		
+	/* .wave_container {		
 		background-size: auto;
 	}
-	
+	 */
 }
 
-@media (max-width: 450px){
+/* @media (max-width: 450px){
 	.wave_title {
 		font-size: 34px;
 		line-height: 40px;
@@ -1327,10 +1327,7 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 		line-height: 30px;
 	}
 
-	.form_info {
-		background-size: 50%;
-	}
-}
+} */
 
 /* END FORM_SECTION */
 
@@ -1348,6 +1345,7 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 	display: flex;
 	/* flex-wrap: wrap; */
 	justify-content: center;
+	padding-bottom: 50px;
 }
 
 .link_social {
