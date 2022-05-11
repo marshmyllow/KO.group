@@ -1182,7 +1182,8 @@ span.button_of_slide {
 }
 .form_container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 400px);
+	/* grid-template-columns: repeat(auto-fit, 400px); */
+	grid-template-columns: repeat(auto-fit, minmax(320px, 400px));
 	justify-content: center;
 	justify-content: space-evenly;
 	gap: 40px;
@@ -1218,8 +1219,10 @@ span.button_of_slide {
 }
 
 .form_info {
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: column; */
+	display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(225px, 400px));
 	background: rgba(252, 254, 255, 0.07);
 	box-shadow: 0px 0px 0px 2px rgba(143, 197, 235, 0.24);
 	backdrop-filter: blur(10px);
@@ -1302,13 +1305,9 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 		line-height: 50px;
 	}
 
-	/* .wave_container {		
-		background-size: auto;
-	}
-	 */
 }
 
-/* @media (max-width: 450px){
+@media (max-width: 450px){
 	.wave_title {
 		font-size: 34px;
 		line-height: 40px;
@@ -1325,7 +1324,7 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 		line-height: 30px;
 	}
 
-} */
+}
 
 /* END FORM_SECTION */
 
