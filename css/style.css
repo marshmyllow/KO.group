@@ -1352,3 +1352,7 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 	margin-right: 20px;
 }
 
+.link_social > img {
+	max-height: 100%;
+	max-width: 100%;
+}
