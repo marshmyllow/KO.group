@@ -509,13 +509,14 @@ body {
 }
 
 .cards_title{
+	max-width: 973px;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 59px;
 	text-align: center;
 	color: #323232;
-	margin-bottom: -50px;
+	margin-bottom: -100px;
 }
 
 .color_cards_title{
@@ -543,7 +544,7 @@ body {
 	height: 165px;
 	/* width: 360px; */
 	width: 90%;
-   	max-width: 650px;
+   max-width: 650px;
 	min-width: 300px;
 	margin: 0 auto;
 	box-shadow: inset 0px 0px 0px 1.5px rgba(184, 184, 184, 0.25);
@@ -611,13 +612,16 @@ body {
 		height: 1500px;
 	}
 
+	
+
 }
 
 
-@media (max-width: 1010px){
+@media (max-width: 1030px){
 	.cards_title{
 		font-size: 36px;
 		line-height: 46px;
+		margin-bottom: -150px;
 	}
 }
 
@@ -625,7 +629,7 @@ body {
 	.cards_title{
 		font-size: 28px;
 		line-height: 36px;
-
+		margin-bottom: -100px;
 	}
 
 	.background_cards_section{
@@ -637,16 +641,16 @@ body {
 
 @media (max-width: 610px){
 	.cards_title{
-		font-size: 22px;
-		line-height: 30px;
+		/* font-size: 22px;
+		line-height: 30px; */
 		margin-bottom: -50px;
 	}
 }
 
 @media (max-width: 485px){
 	.cards_title{
-		font-size: 16px;
-		line-height: 22px;
+		font-size: 24px;
+		line-height: 32px;
 		margin-bottom: -50px;
 	}
 }

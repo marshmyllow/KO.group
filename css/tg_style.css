@@ -458,6 +458,7 @@ body {
 }
 
 .form_right_container > p {
+	max-width: 280px;
 	font-weight: 600;
 	font-size: 32px;
 	line-height: 43px;
@@ -477,6 +478,7 @@ body {
 
 	.form_right_container > p {
 		text-align: center;
+		max-width: none;
 	}
 	.form_title > h2 {
 		margin-bottom: 20px;
