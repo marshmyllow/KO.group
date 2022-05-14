@@ -8,6 +8,10 @@ body {
 	font-family: 'Montserrat';
 }
 
+.backgraund_vk {
+	background: #4680C2;
+}
+
 /* END STANDART STYLE */
 
 
@@ -102,6 +106,16 @@ body {
 	transform: translateY(-50%);
 }
 
+/* Стили для страницы ВК*/
+
+.header_link_vk {
+	color:#fff;
+}
+
+.burger_line_vk {
+	background-color:#fff;
+}
+
 /* @MEDIA HEADER */
 
 @media screen and (max-width:767px){
@@ -187,17 +201,21 @@ body {
 
 .main_promo_container{
 	display: grid;
-	grid-template-columns: 1.3fr 1fr;
-	gap: 40px;
+	grid-template-columns: 1fr 1fr;
 	margin-top: 80px;
-	margin-bottom: 200px;	
+	margin-bottom: 200px;	 
 	align-items: center;
 }
 
-/* .left_promo_container {
-	position: relative;
-	right: 78px;
-} */
+/* .backgraund_promo_section_vk {
+	background: url(../image/promo_image_vk.png) no-repeat;
+	background-position: left;
+	width: 720px;
+	height: 1095px;
+	transform: translate(-45px,30%); */
+
+
+
 
 .promo_text > h1 {
 	font-weight: 800;
@@ -228,6 +246,41 @@ body {
 	margin-bottom: 0;
 }
 
+/* Стили для страницы ВК*/
+
+.main_promo_container_vk {
+	margin-top: 0px;
+	margin-bottom: 0px;	 
+	align-items: normal;
+}
+
+.left_promo_container_vk>img {
+	width: 100%;
+}
+
+.right_promo_container_vk {
+	margin-top: 370px;
+	max-width: 580px;
+}
+
+.promo_text_vk > h1 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.promo_text_vk > h2 {
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 35px;
+	color: #fff;
+	margin-bottom: 45px;
+}
+
+.promo_list_item_vk {
+	color: #fffD;
+}
+
+
 @media screen and (max-width:1040px){
 	.main_promo_container{
 	grid-template-columns: 1fr;
@@ -235,9 +288,23 @@ body {
 	margin-bottom: 100px;
 	}
 
+	.right_promo_container_vk {
+		margin-top: 100px;
+		max-width: 540px;
+		text-align: center;
+  }
+
+	.left_promo_container_vk>img {
+		display: none;
+	}
+
 	img.promo_img{
 		width: 100%;
 		max-width: 300px;
+	}
+
+	.indented_container {
+		padding: 0 20px;
 	}
 }
 
@@ -269,6 +336,7 @@ body {
 
 /* START PRICES SECTION */
 
+
 .prices_title_section {
 	font-weight: 700;
 	font-size: 56px;
@@ -277,6 +345,8 @@ body {
 	color: #0F86D7;
 	margin-bottom: 100px;
 }
+
+
 
 .prices_list {
 	display: grid;
@@ -358,7 +428,37 @@ body {
 	box-shadow: none;
 }
 
+/* Стили для страницы ВК*/
+
+.prices_title_section_vk{
+	margin-top: -200px;
+	color:#fff;
+}
+
+.prices_item_vk {
+	border: 5px solid rgba(255, 255, 255, 0.52);
+}
+
+.prices_item_vk > h4{
+	color: #fff;
+}
+
+.number_of_smth_vk{
+	color:#fff;
+} 
+
+.price_of_smth_vk{
+	color:#060046;
+}
+
+.prices_item_vk:hover {
+	background-color: rgba(214, 209, 209, 0.52);;
+}
+
 @media (max-width: 1210px){
+	.prices_title_section{
+		margin-top: 0px;
+	}
 	.prices_list {
 		margin-bottom: 100px;
 	}
@@ -393,6 +493,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 400px));
 	justify-content: center;
+	justify-items: center;
 	gap: 40px;
 	margin-bottom: 200px;
 }
