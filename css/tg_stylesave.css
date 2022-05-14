@@ -740,28 +740,6 @@ summary {
 	padding: 30px;
 }
 
-/* Стили для страницы ВК*/
-
-.questions_title_vk {
-	color: #fff;
-}
-
-.questions_item_vk:hover{
-	background: #6194CD;
-}
-
-.questions_item_vk[open] {
-	background: #6194CD;
-}
-
-.questions_vk{
-	color:#fff;
-}
-
-.answer_vk{
-	color: #fff;
-}
-
 @media (max-width:800px) {
 	.questions_wrapper {
 		margin-bottom: 100px;
@@ -786,7 +764,7 @@ footer {
 	display: flex;
 	align-items:center;
 	height: 200px;
-	/* background :#EDEEF0; */
+	background :#EDEEF0;
 }
 
 .line_footer {
