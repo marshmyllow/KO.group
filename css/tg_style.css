@@ -484,7 +484,55 @@ body {
 
 /* Стили для страницы разработки сайта*/
 
+.prices_list_site {
+	grid-template-columns: repeat(auto-fit, 550px);
+}
 
+.price_item_table_site {
+	justify-content:normal;
+}
+
+.prices_title_section_site{
+	/* margin-top: -200px; */
+	color:#47B0B0;
+}
+
+.prices_item_site {
+	padding: 0px 0px 10px 0px;
+	border: 5px solid rgba(71, 176, 176, 0.52);
+	width: 480px;
+}
+
+.prices_item_site > h4{
+	color: #47B0B0;
+	padding: 20px 30px 10px 30px;
+	border: 5px solid rgba(71, 176, 176, 0.52);
+	border-radius: 15px;
+}
+
+.number_of_smth_site{
+	color:#47B0B0;
+} 
+
+.price_of_smth_site{
+	color:#060046;
+	text-align: right;
+}
+
+.emoji_in_table_site{
+	padding-left: 28px;
+}
+.prices_item_vk:hover {
+	background-color: rgba(214, 209, 209, 0.52);;
+}
+
+.price_item_table_site li {
+	margin: 0px 0px;
+}
+
+.price_item_table_site li:last-child{
+	margin-top: 50px;
+}
 
 @media (max-width: 1210px){
 	.prices_title_section{
