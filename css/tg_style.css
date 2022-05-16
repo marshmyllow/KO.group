@@ -12,6 +12,9 @@ body {
 	background: #4680C2;
 }
 
+.backgraund_site{
+	background:#EEFAFB; 
+}
 /* END STANDART STYLE */
 
 
@@ -114,6 +117,16 @@ body {
 
 .burger_line_vk {
 	background-color:#fff;
+}
+
+/* Стили для страницы разработки*/
+
+.header_link_site {
+	color: #238686;
+}
+
+.burger_line_site {
+	background-color:#000;
 }
 
 /* @MEDIA HEADER */
@@ -279,8 +292,21 @@ body {
 .promo_list_item_vk {
 	color: #fffD;
 }
+/* Стили для страницы ВК*/
 
+/* Стили для страницы разработки сайтов*/
 
+.main_promo_container_site {
+	gap:40px;
+}
+
+.promo_text_site > h1 {
+	color:#47B0B0;
+}
+
+.promo_text_site > h2 {
+	color: #47B0B0;
+}
 @media screen and (max-width:1040px){
 	.main_promo_container{
 	grid-template-columns: 1fr;
@@ -454,6 +480,11 @@ body {
 .prices_item_vk:hover {
 	background-color: rgba(214, 209, 209, 0.52);;
 }
+/* Стили для страницы ВК*/
+
+/* Стили для страницы разработки сайта*/
+
+
 
 @media (max-width: 1210px){
 	.prices_title_section{
@@ -687,7 +718,7 @@ summary {
 
 } */
 .questions_item {
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 
 .questions_item[open] {
