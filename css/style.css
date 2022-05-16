@@ -1365,7 +1365,7 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 
 /* END FOOTER_SECTION */
 
-/* START POPAP */
+/* START POPAP
 .overlay {
 	position: absolute;
 	width: 100%;
@@ -1416,4 +1416,4 @@ transition: background-color 50000s ease-in-out 0s, color 5000s ease-in-out 0s;
 	top: 11px;
 	transform: rotate(45deg);
 	left: -4px;
-}
+} */
