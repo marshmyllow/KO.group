@@ -485,7 +485,8 @@ body {
 /* Стили для страницы разработки сайта*/
 
 .prices_list_site {
-	grid-template-columns: repeat(auto-fit, 550px);
+	grid-template-columns: repeat(auto-fit, 485px);
+	gap: 50px;
 }
 
 .price_item_table_site {
@@ -500,14 +501,15 @@ body {
 .prices_item_site {
 	padding: 0px 0px 10px 0px;
 	border: 5px solid rgba(71, 176, 176, 0.52);
-	width: 480px;
+	
+	width: 485px;
 }
 
 .prices_item_site > h4{
 	color: #47B0B0;
 	padding: 20px 30px 10px 30px;
-	border: 5px solid rgba(71, 176, 176, 0.52);
-	border-radius: 15px;
+	border-bottom: 5px solid rgba(71, 176, 176, 0.52);
+	/* border-radius: 15px; */
 }
 
 .number_of_smth_site{
@@ -517,6 +519,7 @@ body {
 .price_of_smth_site{
 	color:#060046;
 	text-align: right;
+	padding-right:28px;
 }
 
 .emoji_in_table_site{
