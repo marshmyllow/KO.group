@@ -412,7 +412,7 @@ body {
 	line-height: 68px;
 	text-align: center;
 	color: #0F86D7;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 
@@ -584,11 +584,16 @@ body {
 	.prices_list {
 		margin-bottom: 100px;
 	}
+	.prices_section_vk {
+		margin-top: 80px;
+	}
 }
 
 @media screen and (max-width:767px){
 	.prices_title_section h2 {
 		padding-top: 20px;
+		font-size: 38px;
+		line-height: 46px;
 	}
 }
 
@@ -763,7 +768,9 @@ body {
 
 @media screen and (max-width:767px){
 	.form_title > h2 {
-		padding-top: 20px;
+		font-size: 48px;
+		line-height: 56px;
+		margin-bottom: 50px; 
 	}
 }
 
@@ -775,10 +782,6 @@ body {
 }
 
 @media (max-width:520px) {
-	.form_title > h2{
-		font-size: 38px;
-		line-height: 46px;
-	}
 
 	.form_right_container > p {
 		font-size: 28px;
@@ -788,7 +791,7 @@ body {
 
 @media (max-width: 430px){
 .form_title > h2 {
-    font-size: 32px;
+    font-size: 36px;
     line-height: 40px;
 	 margin-bottom: 0px;
 }
@@ -926,6 +929,8 @@ summary {
 @media screen and (max-width:767px){
 	.questions_title > h2 {
 		padding-top: 20px;
+		font-size: 38px;
+		line-height: 46px;
 	}
 }
 
