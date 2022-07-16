@@ -595,14 +595,9 @@ body {
 		font-size: 38px;
 		line-height: 46px;
 	}
-}
-
-@media (max-width: 410px){
 	.prices_title_section{
-	font-size: 48px;
-	line-height: 56px;
-	margin-bottom: 50px;
-	}
+		margin-bottom: 50px;
+		}
 }
 
 /* END PRICES SECTION */
@@ -761,23 +756,13 @@ body {
 		text-align: center;
 		max-width: none;
 	}
-	.form_title > h2 {
-		margin-bottom: 20px;
-	}
 }
 
 @media screen and (max-width:767px){
 	.form_title > h2 {
-		font-size: 48px;
+		font-size: 38px;
 		line-height: 56px;
-		margin-bottom: 50px; 
-	}
-}
-
-@media (max-width:600px){
-	.form_title > h2{
-		font-size: 48px;
-		line-height: 56px;
+		margin-bottom: 0px; 
 	}
 }
 
@@ -932,6 +917,13 @@ summary {
 		font-size: 38px;
 		line-height: 46px;
 	}
+
+	.questions_wrapper {
+		margin-bottom: 50px;
+  }
+  	.questions_title {
+		margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -939,10 +931,6 @@ summary {
 		font-size: 32px;
 		line-height: 40px;
 	}
-
-	.questions_wrapper {
-		margin-bottom: 50px;
-  }
 }
 
 
